@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+    
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    border : red 2px solid;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.animal-box {
+    border: green 2px solid;
+}
+.caption {
+    text-align: center;
+}
+
+.animal-info-box {
+    border: cyan 2px solid;
+}
+
+.animal-attribute {
+    display: flex;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+}
+.button {
+    display: flex;
+}
