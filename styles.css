@@ -12,8 +12,15 @@ header {
 }
 
 .animal-box {
+    display: flex;
+    flex-direction: column;
     border: green 2px solid;
+    width : 450px;
 }
+
+.image {
+}
+
 .caption {
     text-align: center;
 }
@@ -21,14 +28,17 @@ header {
 .animal-info-box {
     border: cyan 2px solid;
 }
+#animal-image {
+    width: 100%;
+}
 
 .animal-attribute {
     display: flex;
 }
 
 .icon {
-    height: 25px;
-    width: 25px;
+    width:25px;
+    height:25px;
 }
 .button {
     display: flex;
